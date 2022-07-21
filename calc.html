@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX////l4uHt7Ov/kkiCe3fy8fDp5uV/eHPk5eXyvaD/jj/29fX/zLH/jkD/iTGnoZ//u5b/lEx5cW11bWiVj4yloJ2sqKXU0c+2sq+QioeJgn7EwL7539L/vpr/1Lz/izj/9fD/mlb/tYr/2cT/7eP/s4Tu0sX/p2//6NoDY8+FAAADiklEQVR4nO3d61baQBhGYYIQVAyWQMBz0Nba+7/CaltqNK6uObxfzQx7/+gfMYvHTJKJE+loRERERERERERERER0mM2jm8Y1n1vqpuP4yiK6cmyjVPA0wpfGQ/XJhGrjXOUTCotiqgPKdqBWWJQqoNCnFRaFxCccoXphoTiraoFqoWAvioFyYTRReZKxEUaebsQHoYUw8qIhBxoIo8apfIyaCGNmN3qghTBiJxrsQhNh+E40AJoIg3ei/kRqJQyd2VgMUmdhWe7/cSh0mDq832mzqvetGpcfieN7Lq/Xz5tcX7u9PPSq7yLczCb7ZhudsGzqlw3P6sbt9WFAl8PQSFhu6j8brTdO3xB2IH6icNvZ6jZHYXnR2eqFy3eEzU0/Udh0tnqepfC8s1Wnc01ywu4odTrVpCb0P9MkJ3w9EN0GaXrColj/viDWa7eXJygsL66eZ21XTpeKNIVFWWy328L11SkK/UKI8ICE/VX1N8L+Gr2TsPTNUNhs3nc5ee2y99XGSdic+9UYClez90269b66chL2t/rvVobCeuJX7ST03ipChAgRIkSI0FSY/5wm/3lp/vcWfXJu94cIESLslP3vS/P/nXfu6xb5rz111g/rbY4rpPmvAR/AOn7+z2Jk/zzNITyp4PtcW3JC72cTDYXDeL7UUOifyTPCSQr9QogQIUKECBEiRIgQIUKEqQnHxxYFCr3X1x0afz+x6CZIOLUYTscn7am+xdmQhKdH+k4RIkSIECFChAgRIkSIECFChAgRIkT43MK31IRL73e2TEx4hBAhQoQIESJE+H+F3sv2LsJBzdriP/3go314+8Wv294WdML4T7D4SFj5ZiiM/xSSod8fIkSIECFChAgPYU6T/7w0/3uL+IZ+f4gQIUKECBEiRBgoPIBZW/bPYggKFM7TEbZ32QvD/sJylI5wsQsTWvxRso3wPgw4GqcirB4ChRYHoomw/RootDgQbYShQIthaiEMHqQmw9RC2H4LFhrsRANh9RgONDgSDYTtLkYon5vqhW3YnPRv6qu+XFg9xQHl41QtrJa7WKGYKBdGnEf3aS8ZWmFV/YgHjrR7USqsloI9+Cvh6UYpbJ92IqDyoqETVrGXiXepZjcqYdU+7qRAmVEirNr2QXUEvmku+Ciy45NF3EdCte3i/iH4ftBF2f9/ufy6OYvr7mZnyCMiIiIiIiIiIiIiGnA/AdkTNVDVw7pPAAAAAElFTkSuQmCC" type="image/gif" sizes="16x16">
+</head>
+<body>
+    <h1>Welcome to easy to use online calculator</h1>
+    <h2>It's completely free</h2>
+    <div class="main-body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id="screen">
+                    <button onclick="clearDisplay()" class="btn">c</button>
+                    <div class="row">
+                        <button onclick="buttonclick(7)" class="btn">7</button>
+                        <button onclick="buttonclick(8)" class="btn">8</button>
+                        <button onclick="buttonclick(9)" class="btn">9</button>
+                        <button onclick="buttonclick('/')" class="btn">/</button>
+
+                    </div>
+
+                    <div class="row">
+                        <button onclick="buttonclick(4)" class="btn">4</button>
+                        <button onclick="buttonclick(5)" class="btn">5</button>
+                        <button onclick="buttonclick(6)" class="btn">6</button>
+                        <button onclick="buttonclick('*')" class="btn">x</button>
+                        
+                    </div>
+
+                    <div class="row">
+                        <button onclick="buttonclick(1)" class="btn">1</button>
+                        <button onclick="buttonclick(2)" class="btn">2</button>
+                        <button onclick="buttonclick(3)" class="btn">3</button>
+                        <button onclick="buttonclick('-')" class="btn">-</button>
+                        
+                    </div>
+
+                    <div class="row">
+                        <button onclick="buttonclick('.')" class="btn">.</button>
+                        <button onclick="buttonclick(0)" class="btn">0</button>
+                        <button onclick="buttonclick('+')" class="btn">+</button>
+                        <button onclick="equalClick()" class="btn">=</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
